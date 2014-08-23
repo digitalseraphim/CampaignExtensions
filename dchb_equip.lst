@@ -1,0 +1,5 @@
+# Dora Campaign
+
+#Block: Specific Armors
+Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	SPROP:+1 to hit and +1 damage for arcane spells
+Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	SPROP:+1 to hit and +2 damage for arcane spells
