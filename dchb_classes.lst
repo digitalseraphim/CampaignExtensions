@@ -1,0 +1,14 @@
+CLASS:Dragonblood Sorcerer (PC)		HD:6	TYPE:PC.Prestige	ABB:DbsPC	MAXLEVEL:10
+CLASS:Dragonblood Sorcerer (PC)		PREFEAT:1,Draconic Heritage	PRESKILL:2,Knowledge (TYPE=Arcana)=8,Concentration=8	PRESPELLTYPE:1,Arcane=3	PRECLASS:1,Sorcerer=6	!PRECLASS:2,ANY	PRELANG:1,Draconic	PRESTAT:1,CHA=12
+CLASS:Dragonblood Sorcerer (PC)		STARTSKILLPTS:2		CSKILL:Bluff|Concentration|Type=Craft|Decipher Script|Knowledge (Type=Arcana)|Spellcraft
+1	ADD:SPELLCASTER|Arcane
+2	ADD:SPELLCASTER|Arcane
+3	ADD:SPELLCASTER|Arcane
+4	ADD:SPELLCASTER|Arcane
+5	ADD:SPELLCASTER|Arcane
+6	ADD:SPELLCASTER|Arcane
+7	ADD:SPELLCASTER|Arcane
+8	ADD:SPELLCASTER|Arcane
+9	ADD:SPELLCASTER|Arcane
+10	ADD:SPELLCASTER|Arcane
+
