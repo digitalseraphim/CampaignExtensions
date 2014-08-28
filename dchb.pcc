@@ -28,7 +28,7 @@ INFOTEXT:Where misc. requests are stored.
 EQUIPMENT:dchb_equip.lst
 #EQUIPMOD:hbr_equipmods.lst
 FEAT:dchb_feats.lst
-#SPELL:hbr_spells.lst
+SPELL:dchb_spells.lst
 #RACE:hbr_races.lst
 #WEAPONPROF:hbr_profs_weapon.lst
 #TEMPLATE:hbr_templates.lst
