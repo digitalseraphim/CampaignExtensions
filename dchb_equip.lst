@@ -1,12 +1,8 @@
 # Dora Campaign
 
 #Block: Specific Armors
-Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	BONUS:COMBAT|DAMAGE.Ray,TOHIT.Ray|1	SPROP:+1 to hit and +1 damage for arcane spells
-Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Unarmed|2|TYPE=Arcane	BONUS:COMBAT|TOHIT.Unarmed|1|TYPE=Arcane	SPROP:+1 to hit and +2 damage for arcane spells
+Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Weapon.Ranged.Arcane|1	BONUS:COMBAT|TOHIT.Weapon.Ranged.Arcane|1	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	SPROP:+1 to hit and +1 damage for arcane spells
+Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Weapon.Ranged.Arcane|2	BONUS:COMBAT|TOHIT.Weapon.Ranged.Arcane|1	SPROP:+1 to hit and +2 damage for arcane spells
 
 #Block: Fake "weapons" for spells
-#Launch Bolt	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed	CRITMULT:x2	CRITRANGE:1	WIELD:Light	MODS:NO	SIZE:M
-#Ray of Frost	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed.Arcane	CRITMULT:x2	CRITRANGE:1	WIELD:Light	MODS:NO	SIZE:M
-#Light of Lunia (Bolt)	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed	CRITMULT:x2	CRITRANGE:1	WIELD:Light	MODS:NO	SIZE:M
-Lesser Orb of Cold	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed.Arcane	CRITMULT:x2	CRITRANGE:1	WIELD:Light	MODS:NO	SIZE:M	DAMAGE:2d8
-#Ice Knife	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed.Arcane	CRITMULT:x2	CRITRANGE:1	WIELD:Light	MODS:NO	SIZE:M
+Lesser Orb of Cold	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Arcane	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	WIELD:Light	MODS:NO	SIZE:M
