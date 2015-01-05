@@ -1,8 +1,13 @@
 # Dora Campaign
 
 #Block: Specific Armors
-Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Weapon.Ranged.Arcane|1	BONUS:COMBAT|TOHIT.Weapon.Ranged.Arcane|1	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	SPROP:+1 to hit and +1 damage for arcane spells
-Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Weapon.Ranged.Arcane|2	BONUS:COMBAT|TOHIT.Weapon.Ranged.Arcane|1	SPROP:+1 to hit and +2 damage for arcane spells
+Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:VAR|ArcaneToHit,ArcaneDamage|1	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	SPROP:+1 to hit and +1 damage for arcane spells
+Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	BONUS:VAR|ArcaneToHit|1	BONUS:VAR|ArcaneDamage|2	SPROP:+1 to hit and +2 damage for arcane spells
 
 #Block: Fake "weapons" for spells
-Lesser Orb of Cold	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Arcane	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	WIELD:Light	MODS:NO	SIZE:M
+#Launch Bolt (0)		DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0							PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	BONUS:WEAPON|DAMAGE|ArcaneDamage		BONUS:WEAPON|TOHIT|ArcaneToHit			WIELD:Light	MODS:NO	SIZE:M	
+Lesser Orb of Cold (1)	DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:3d8	BONUS:WEAPON|DAMAGE|ArcaneDamage+ColdDamage	BONUS:WEAPON|TOHIT|ArcaneToHit+ColdToHit	WIELD:Light	MODS:NO	SIZE:M	SPROP:Range 40ft, Cold damage, No save
+Ice Dagger(1)		DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:5d4	BONUS:WEAPON|DAMAGE|ArcaneDamage+ColdDamage	BONUS:WEAPON|TOHIT|ArcaneToHit+ColdToHit	WIELD:Light	MODS:NO	SIZE:M	SPROP:Range 40ft, Cold damage, No save, SR:yes, touch attack 
+Ice Knife (2)		DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	BONUS:WEAPON|DAMAGE|ArcaneDamage+ColdDamage	BONUS:WEAPON|TOHIT|ArcaneToHit+ColdToHit+(floor((classlevel("TYPE=Arcane")+charbonusto("CASTERLEVEL","DESCRIPTOR.Cold"))/2)*2)	WIELD:Light	MODS:NO	SIZE:M	SPROP:Range 640ft, Cold damage. +2 Dex damage (fort save half, cold resist none). If miss, d8 for shatter location, Shatter as below.
+Ice Knife Shatter	DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	BONUS:WEAPON|DAMAGE|ColdDamage									WIELD:Light	MODS:NO	SIZE:M	SPROP:10 ft radius, cold damage. reflex half
+Snowball Swarm (2)	DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:3d6	BONUS:WEAPON|DAMAGE|ArcaneDamage+ColdDamage							WIELD:Light	MODS:NO	SIZE:M	SPROP:Range 160ft, 10ft radius, cold damage. reflex half

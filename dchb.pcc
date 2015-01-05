@@ -31,7 +31,7 @@ FEAT:dchb_feats.lst
 SPELL:dchb_spells.lst
 #RACE:hbr_races.lst
 #WEAPONPROF:hbr_profs_weapon.lst
-#TEMPLATE:hbr_templates.lst
+TEMPLATE:dchb_templates.lst
 
 
 #FORWARDREF:SKILL|Autohypnosis,Knowledge (Psionics),Psicraft
