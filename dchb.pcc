@@ -23,7 +23,7 @@ INFOTEXT:Where misc. requests are stored.
 #ABILITY:hbr_abilities.lst
 #ABILITYCATEGORY:hbr_abilitycategories.lst
 
-#CLASS:hbr_classes.lst
+CLASS:dchb_classes.lst
 
 EQUIPMENT:dchb_equip.lst
 #EQUIPMOD:hbr_equipmods.lst
