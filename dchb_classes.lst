@@ -2,7 +2,7 @@ CLASS:Silver Dragon Blood Sorcerer (PC)		HD:6	TYPE:PC.Prestige	ABB:SdbsPC	MAXLEV
 CLASS:Silver Dragon Blood Sorcerer (PC)		PREFEAT:1,Draconic Heritage	PRESKILL:2,Knowledge (Arcana)=8,Concentration=8	PRESPELLTYPE:1,Arcane=3	PRECLASS:1,Sorcerer=6	PRELANG:1,Draconic	PRESTAT:1,CHA=12
 CLASS:Silver Dragon Blood Sorcerer (PC)		STARTSKILLPTS:2		CSKILL:Bluff|Concentration|TYPE=Craft|Decipher Script|Knowledge (Arcana)|Spellcraft	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 #1	ADD:SPELLCASTER|Arcane	AUTO:FEAT|Silver Dragon Lineage	BONUS:VAR|PhynxkinFamiliarLVL|CL+MIN(classlevel("Sorcerer"),CL)	ABILITY:Silver Dragon Blood Sorcerer Class Feature|AUTOMATIC|Silver Dragon Blood Sorcerer ~ Phynxkin Familiar
-1	ADD:SPELLCASTER|Arcane	AUTO:FEAT|Silver Dragon Lineage	BONUS:VAR|FamiliarLVL|1	BONUS:VAR|PhynxkinFamiliarLVL|1	ABILITY:Silver Dragon Blood Sorcerer Class Feature|AUTOMATIC|Silver Dragon Blood Sorcerer ~ Phynxkin Familiar
+1	ADD:SPELLCASTER|Arcane	AUTO:FEAT|Silver Dragon Lineage	BONUS:VAR|PhynxkinFamiliarLVL|1	ABILITY:Silver Dragon Blood Sorcerer Class Feature|AUTOMATIC|Silver Dragon Blood Sorcerer ~ Phynxkin Familiar
 2	ADD:SPELLCASTER|Arcane	
 3	ADD:SPELLCASTER|Arcane
 4	ADD:SPELLCASTER|Arcane

@@ -1,4 +1,6 @@
 Phynxkin Familiar	KEY:Silver Dragon Blood Sorcerer ~ Phynxkin Familiar	CATEGORY:Special Ability	TYPE:Extraordinary.Class Feature.Silver Dragon Blood Sorcerer Class Feature.SpecialQuality	SERVESAS:ABILITY=Special Ability|Summon Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar	DESC:As a SDBS, you are able to regain your ability to summon a familiar.
-Summon Familiar	CATEGORY:Special Ability
+#Phynxkin Familiar	CATEGORY:Special Ability	TYPE:Companion
+#Phynxkin Familiar	CATEGORY:Special Ability	KEY:Silver Dragon Blood Sorcerer ~ Phynxkin Familiar	TYPE:Extraordinary.Class Feature.Silver Dragon Blood Sorcerer Class Feature.SpecialQuality	VISIBLE:YES	DEFINE:PhynxkinFamiliarLVL|0	SERVESAS:ABILITY=Special Ability|Summon Familiar	FOLLOWERS:Phynxkin Familiar|1     COMPANIONLIST:Phynxkin Familiar|Phynxkin	DESC:As a SDBS, you are able to regain your ability to summon a familiar.	ABILITY:Special Aility|AUTOMATIC|Familiar
+#Summon Familiar	CATEGORY:Special Ability
 Race Traits ~ Phynxkin	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|Phynxkin ~ Pounce
 Pounce		KEY:Phynxkin ~ Pounce				CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:If a phynxkin charges a foe, it can make a full attack, including two claw attacks.
