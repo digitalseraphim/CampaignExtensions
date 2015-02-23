@@ -1,5 +1,5 @@
 STARTPACK:Familiar ~ Phynxkin	TYPE:Companion	VISIBLE:NO
-RACE:Phynxkin	!PRERACE:1,%
+RACE:Companion ~ Phynxkin	!PRERACE:1,%
 ALIGN:TN
 SKILL:Climb	RANK:8
 SKILL:Hide	RANK:3
