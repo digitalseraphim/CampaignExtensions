@@ -4,6 +4,13 @@
 Caster's Helmet		COST:30	WT:3	TYPE:Magic.Headgear	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:VAR|ArcaneToHit,ArcaneDamage|1	BONUS:MOVEADD|TYPE.Walk|-5	BONUS:EQMARMOR|MAXDEX|6	SPELLFAILURE:0	SPROP:+1 to hit and +1 damage for arcane spells
 Reckoning Staff		COST:30	WT:4	TYPE:Magic.Staff	BONUS:COMBAT|AC|-2|TYPE=Enhancement	BONUS:VAR|ArcaneToHit|1	BONUS:VAR|ArcaneDamage|2	SPROP:+1 to hit and +2 damage for arcane spells
 
+Nagging Staff	COST:1000	WT:4	TYPE:Magic.Staff	BONUS:VAR|ArcaneToHit|6	BONUS:VAR|ArcaneDamage|1	BONUS:COMBAT|TOHIT|1	BONUS:COMBAT|DAMAGE|-1	DAMAGE:1d6-1	CRITRANGE:1	CRITMULT:x2	RANGE:5	SPROP:If the caster becomes distracted by the staff, the spell may suffer a penalty to attack and damage instead.
+
+Coward's Amulet	COST:2650	WT:.5	TYPE:Magic.Ring		BONUS:COMBAT|AC|1
+
+Ring of Agression	COST:1500	WT:.5	TYPE:Magic.Ring	
+
+
 #Block: Fake "weapons" for spells
 Launch Bolt (0)		DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0							PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	BONUS:WEAPON|DAMAGE|ArcaneDamage		BONUS:WEAPON|TOHIT|ArcaneToHit			WIELD:Light	MODS:NO	SIZE:M	
 Lesser Orb of Cold (1)	DEFINE:ArcaneToHit|0	DEFINE:ArcaneDamage|0	DEFINE:ColdToHit|0	DEFINE:ColdDamage|0	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Unarmed.Ranged	COST:0	WT:0	CRITMULT:x2	CRITRANGE:1	DAMAGE:4d8	BONUS:WEAPON|DAMAGE|ArcaneDamage+ColdDamage	BONUS:WEAPON|TOHIT|ArcaneToHit+ColdToHit	WIELD:Light	MODS:NO	SIZE:M	SPROP:Range 40ft, Cold damage, No save
