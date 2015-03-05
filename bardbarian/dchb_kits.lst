@@ -1,0 +1,8 @@
+STARTPACK:Familiar ~ Phynxkin	TYPE:Companion	VISIBLE:NO
+RACE:Companion ~ Phynxkin	!PRERACE:1,%
+ALIGN:TN
+SKILL:Climb	RANK:8
+SKILL:Hide	RANK:3
+SKILL:Move Silently	RANK:4
+FEAT:Alertness
+STAT:STR=14|DEX=13|CON=14|INT=2|WIS=8|CHA=8

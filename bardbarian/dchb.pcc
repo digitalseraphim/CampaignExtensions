@@ -1,0 +1,43 @@
+# CVS $Revision$ $Author$ -- Sun Dec  8 22:17:49 2013 -- reformated by prettylst.pl v1.50 (build 22352)
+CAMPAIGN:Dora Campaign Homebrew
+RANK:9
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
+GAMEMODE:35e|Bahamut35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Fantasy
+TYPE:Homebrew
+STATUS:BETA
+PUBNAMELONG:DORACAMPAIGNHOMEBREW
+PUBNAMESHORT:DCHB
+#PUBNAMEWEB:http://games.groups.yahoo.com/group/bd_games/
+SOURCELONG:Dora Campaign Homebrew
+SOURCESHORT:DCHB
+SOURCEDATE:2014-07
+#SOURCEWEB:github.com/BahamutDragon/pcgen
+ISOGL:NO
+ISLICENSED:NO
+#COPYRIGHT:BahamutDragon (c)2014
+INFOTEXT:Where misc. requests are stored.
+
+ABILITY:dchb_abilities.lst
+ABILITYCATEGORY:dchb_abilitycategories.lst
+
+CLASS:dchb_classes.lst
+COMPANIONMOD:dchb_companionmods.lst
+
+EQUIPMENT:dchb_equip.lst
+KIT:dchb_kits.lst
+
+FEAT:dchb_feats.lst
+RACE:dchb_races.lst
+SPELL:dchb_spells.lst
+#WEAPONPROF:hbr_profs_weapon.lst
+TEMPLATE:dchb_templates.lst
+
+
+#FORWARDREF:SKILL|Autohypnosis,Knowledge (Psionics),Psicraft
+#
+# DONE
+#
+
