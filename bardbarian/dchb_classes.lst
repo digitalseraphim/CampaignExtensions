@@ -1,9 +1,0 @@
-CLASS:Bardbarian (PC)	HD:12	TYPE:PC.Prestige	ABB:Bbrd	MAXLEVEL:10
-CLASS:Bardbarian (PC)	PRESKILL:Perform=8	PRESTAT:1,CHA=10
-CLASS:Bardbarian (PC)	DEFINE:BardbarianLVL:0	BONUS:VAR|BardbarianLVL|CL
-CLASS:Bardbarian (PC)	STARTSKILLPTS:2		CSKILL:Balance|Climb|Concentration|TYPE=Craft|Heal|Knowledge (Arcana)	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEEPIC")/2+2
-CLASS:Bardbarian	PREALIGN:NG,TN,NE,CG,CN,CE
-
-1	ABILITY:Special Ability|AUTOMATIC|Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic
-
-1	CAST:0	KNOWN:0
