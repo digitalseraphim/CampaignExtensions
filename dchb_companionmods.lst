@@ -1,4 +1,4 @@
-FOLLOWER:PhynxkinFamiliarLVL=1	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Empathic Link|Familiar ~ Improved Evasion|Familiar ~ Share Spells	COPYMASTERHP:max(1,MASTER/2)	BONUS:COMBAT|AC|(PhynxkinFamiliarLVL+1)/2|TYPE=NaturalArmor.REPLACE	KIT:1|Familiar ~ Phynxkin	BONUS:STAT|INT|4
+FOLLOWER:PhynxkinFamiliarLVL=1	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Empathic Link|Familiar ~ Improved Evasion|Familiar ~ Share Spells	COPYMASTERBAB:MASTER	COPYMASTERHP:max(1,MASTER/2)	BONUS:COMBAT|AC|(PhynxkinFamiliarLVL+1)/2|TYPE=NaturalArmor.REPLACE	KIT:1|Familiar ~ Phynxkin	BONUS:STAT|INT|4	BONUS:COMBAT|TOHIT.MELEE|max(DEX,STR)
 FOLLOWER:PhynxkinFamiliarLVL=3	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Phynxkin ~ Breath Attack	BONUS:STAT|INT|1
 
 #MASTERBONUSRACE:Phynxkin	TYPE:Familiar	BONUS:SKILL|Move Silently|3	VFEAT:Alertness

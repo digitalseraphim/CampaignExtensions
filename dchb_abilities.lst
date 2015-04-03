@@ -5,7 +5,7 @@ Phynxkin SDBS Familiar	KEY:Phynxkin Familiar Selection ~ Familiar	CATEGORY:Inter
 
 Race Traits ~ Phynxkin	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|Phynxkin ~ Pounce
 Pounce		KEY:Phynxkin ~ Pounce		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:If a phynxkin charges a foe, it can make a full attack, including two claw attacks.
-Breath Attack	KEY:Phynxkin ~ Breath Attack	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:breath attack as "Draconic Breath" feat, sorcerer must "assign" levels that can be used each day, but does not lose them unless the breath weapon is used. 2d6 cold damage per spell level used, 30 foot cone.
+Breath Attack	KEY:Phynxkin ~ Breath Attack	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Breath attack, as "Draconic Breath" feat, sorcerer must "assign" spell slots to be used each day. These spell slots are used up. 2d6 cold damage per spell level used, 30 foot cone.
 
 
 #Support for Bardbarian
