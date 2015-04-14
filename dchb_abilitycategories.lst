@@ -1,2 +1,3 @@
 ABILITYCATEGORY:Silver Dragon Blood Sorcerer Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Silver Dragon Blood Sorcerer Class Feature	PLURAL:Silver Dragon Blood Sorcerer Class Features	DISPLAYLOCATION:Class Features
 
+ABILITYCATEGORY:Draconic Feat	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:Pool_DraconicFeat	CATEGORY:FEAT	TYPE:Draconic	PLURAL:Draconic Feats	DISPLAYLOCATION:Feats

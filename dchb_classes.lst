@@ -4,7 +4,7 @@ CLASS:Silver Dragon Blood Sorcerer (PC)		STARTSKILLPTS:2		CSKILL:Bluff|Concentra
 #1	ADD:SPELLCASTER|Arcane	AUTO:FEAT|Silver Dragon Lineage		BONUS:VAR|PhynxkinFamiliarLVL|CL+MIN(classlevel("Sorcerer"),CL)	ABILITY:Silver Dragon Blood Sorcerer Class Feature|AUTOMATIC|Silver Dragon Blood Sorcerer ~ Phynxkin Familiar
 1	ADD:SPELLCASTER|Arcane	AUTO:FEAT|Silver Dragon Lineage		BONUS:VAR|PhynxkinFamiliarLVL|CL+MIN(classlevel("Sorcerer"),CL)	ABILITY:Internal|AUTOMATIC|Familiar (SDBS)
 2	ADD:SPELLCASTER|Arcane	
-3	ADD:SPELLCASTER|Arcane
+3	ADD:SPELLCASTER|Arcane	DEFINE:Pool_DraconicFeat|0	BONUS:VAR|Pool_DraconicFeat|1
 4	ADD:SPELLCASTER|Arcane
 5	ADD:SPELLCASTER|Arcane
 6	ADD:SPELLCASTER|Arcane

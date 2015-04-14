@@ -1,3 +1,4 @@
+CATEGORY=Internal|Default.MOD DEFINE:Pool_DraconicFeat|0
 
 #Support for Silver Dragon Blood Sorcerer
 Familiar (SDBS)	CATEGORY:Internal	VISIBLE:NO	DEFINE:PhynxkinFamiliarLVL|0	DEFINE:PhynxkinFamiliarAllowed|0	ABILITY:Familiar Selection|AUTOMATIC|Phynxkin Familiar Selection ~ Familiar	FOLLOWERS:Familiar|1	BENEFIT:The character gets a phynxkin familiar
