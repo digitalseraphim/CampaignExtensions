@@ -23,3 +23,4 @@ CLASS:Bardbarian	PREALIGN:NG,TN,NE,CG,CN,CE
 
 1	ABILITY:Special Ability|AUTOMATIC|Ragesong	ABILITY:Special Ability|AUTOMATIC|Warsong
 1	CAST:0	KNOWN:0
+2	ABILITY:Special Ability|AUTOMATIC|Canticle of Caution
