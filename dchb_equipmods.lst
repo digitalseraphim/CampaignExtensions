@@ -1,0 +1,2 @@
+###Block: Divine Archer Enhance Arrow feature
+Divine Archer Enhancement	KEY:DIVINE_ARCHER_AMMO	TYPE:Ammunition	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Arrow	!PRETYPE:1,Enhancement	BONUS:WEAPON|DAMAGE,TOHIT|ArrowEnhancement|TYPE=Enhancement

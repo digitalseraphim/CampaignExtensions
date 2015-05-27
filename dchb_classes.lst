@@ -24,3 +24,26 @@ CLASS:Bardbarian	PREALIGN:NG,TN,NE,CG,CN,CE
 1	ABILITY:Special Ability|AUTOMATIC|Ragesong	ABILITY:Special Ability|AUTOMATIC|Warsong
 1	CAST:0	KNOWN:0
 2	ABILITY:Special Ability|AUTOMATIC|Canticle of Caution
+###Block: Divine Archer
+
+# Class Name		Hit Dice	Type			Class Type			Abbreviation	Source Page		Define				Combat bonus										Modify VAR				Bonus
+CLASS:Divine Archer	HD:8		TYPE:PC.Prestige	CLASSTYPE:Prestige	ABB:Arc		SOURCEPAGE:p.176	DEFINE:DivineArcherLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|DivineArcherLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name		Required Feat															Required Race		Req. Spell Type		PRETOTALAB
+CLASS:Divine Archer	PREABILITY:2,CATEGORY=FEAT,Point Blank Shot,Precise Shot	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Longbow),Weapon Focus (Shortbow)	PRERACE:1,Elf%,Half-Elf	PRESPELLTYPE:1,Divine=1	PRETOTALAB:6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Divine Archer	STARTSKILLPTS:4	CSKILL:TYPE=Craft|Hide|Listen|Move Silently|Ride|Spot|Survival|Use Rope
+###Block:
+1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Weapon and Armor Proficiency
+1	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Enhance Arrow
+2	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Imbue Arrow
+3	ADD:SPELLCASTER|Divine
+4	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Seeker Arrow
+5	ADD:SPELLCASTER|Divine
+6	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Phase Arrow
+7	ADD:SPELLCASTER|Divine
+8	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Hail of Arrows
+9	ADD:SPELLCASTER|Divine
+10	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Arrow of Death
+###Block:
+11	PREPCLEVEL:MIN=20
+
