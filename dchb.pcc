@@ -27,7 +27,7 @@ CLASS:dchb_classes.lst
 COMPANIONMOD:dchb_companionmods.lst
 
 EQUIPMENT:dchb_equip.lst
-EQUIPMOD:dchb_equipmod.lst
+EQUIPMOD:dchb_equipmods.lst
 KIT:dchb_kits.lst
 
 FEAT:dchb_feats.lst

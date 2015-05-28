@@ -27,21 +27,21 @@ CLASS:Bardbarian	PREALIGN:NG,TN,NE,CG,CN,CE
 ###Block: Divine Archer
 
 # Class Name		Hit Dice	Type			Class Type			Abbreviation	Source Page		Define				Combat bonus										Modify VAR				Bonus
-CLASS:Divine Archer	HD:8		TYPE:PC.Prestige	CLASSTYPE:Prestige	ABB:Arc		SOURCEPAGE:p.176	DEFINE:DivineArcherLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|DivineArcherLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
+CLASS:Divine Archer	HD:8		TYPE:PC.Prestige	CLASSTYPE:Prestige	ABB:Arc		SOURCEPAGE:p.176	DEFINE:DivineArcherLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|DivineArcherLVL|CL	BONUS:VAR|RangerLVL|CL	BONUS:VAR|ClericLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name		Required Feat															Required Race		Req. Spell Type		PRETOTALAB
-CLASS:Divine Archer	PREABILITY:2,CATEGORY=FEAT,Point Blank Shot,Precise Shot	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Longbow),Weapon Focus (Shortbow)	PRERACE:1,Elf%,Half-Elf	PRESPELLTYPE:1,Divine=1	PRETOTALAB:6
+CLASS:Divine Archer	PRERACE:1,Elf%,Half-Elf	PRESPELLTYPE:1,Divine=1	PRETOTALAB:6
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Divine Archer	STARTSKILLPTS:4	CSKILL:TYPE=Craft|Hide|Listen|Move Silently|Ride|Spot|Survival|Use Rope
 ###Block:
 1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Weapon and Armor Proficiency
-1	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Enhance Arrow
-2	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Imbue Arrow
-3	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine
-4	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Seeker Arrow
-5	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine
-6	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Phase Arrow
-7	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine
-8	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Hail of Arrows
-9	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine
-10	ADD:SPELLCASTER|Ranger	ADD:SPELLCASTER|Divine	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Arrow of Death
+1	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Enhance Arrow
+2	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Imbue Arrow	ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Improved Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerImprovedCombatStyle
+3	BONUS:PCLEVEL|Ranger,Cleric|1											ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Woodland Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerWoodlandStride
+4	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Seeker Arrow	ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Swift Tracker|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSwiftTracker
+5	BONUS:PCLEVEL|Ranger,Cleric|1											ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEvasion
+6	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Phase Arrow
+7	BONUS:PCLEVEL|Ranger,Cleric|1											ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyleMastery
+8	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Hail of Arrows
+9	BONUS:PCLEVEL|Ranger,Cleric|1											ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Camouflage|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCamouflage
+10	BONUS:PCLEVEL|Ranger,Cleric|1	ABILITY:Divine Archer Class Feature|AUTOMATIC|Divine Archer ~ Arrow of Death
 
