@@ -3,3 +3,6 @@ Draconic Power (Silver)	TYPE:Draconic	PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic H
 Silver Dragon Lineage	TYPE:Draconic	PRECLASS:1,Sorcerer=3	PREFEAT:1,Draconic Heritage	PRETEXT:Draconic Heritage (silver), sorcerer level 3rd. 	PREABILITY:1,CATEGORY=Special Ability,Draconic Selection ~ Silver
 
 Draconic Vigor	TYPE:Draconic	PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage	PRETEXT:Draconic Heritage, sorcerer level 1st.	DESC:You gain some of the vitality of your draconic ancestry when casting spells.	BENEFIT: Whenever you cast an arcane spell, you heal a number of points of damage equal to the spell's level.
+
+Ranged Spell Weapon Focus	CATEGORY:FEAT	TYPE:General	DESC:You are especially good at using this specified weapon.|!PRERULE:1,DisplayFullFeat	DESC: You are especially good at using ranged spells.|PRERULE:1,DisplayFullFeat	BONUS:VAR|RangedSpellToHit|1	BENEFIT:You gain a +1 bonus on all attack rolls for ranged spells	PRETOTALAB:1
+
