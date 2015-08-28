@@ -1,8 +1,8 @@
 CATEGORY=Internal|Default.MOD DEFINE:Pool_DraconicFeat|0
 
 #Support for Silver Dragon Blood Sorcerer
-Familiar (SDBS)	CATEGORY:Internal	VISIBLE:NO	DEFINE:PhynxkinFamiliarLVL|0	DEFINE:PhynxkinFamiliarAllowed|0	ABILITY:Familiar Selection|AUTOMATIC|Phynxkin Familiar Selection ~ Familiar	FOLLOWERS:Familiar|1	BENEFIT:The character gets a phynxkin familiar
-Phynxkin SDBS Familiar	KEY:Phynxkin Familiar Selection ~ Familiar	CATEGORY:Internal	TYPE:FamiliarBase.FamiliarSelection	COMPANIONLIST:Familiar|Companion ~ Phynxkin
+Familiar (SDBS)	CATEGORY:Internal	VISIBLE:YES	DEFINE:PhynxkinFamiliarLVL|0	DEFINE:PhynxkinFamiliarAllowed|0	ABILITY:Familiar Selection|AUTOMATIC|Phynxkin Familiar Selection ~ Familiar	FOLLOWERS:Familiar|1	BENEFIT:The character gets a phynxkin familiar level %1|PhynxkinFamiliarLVL
+Phynxkin SDBS Familiar	KEY:Phynxkin Familiar Selection ~ Familiar	CATEGORY:Internal	TYPE:FamiliarBase.FamiliarSelection	COMPANIONLIST:Familiar|Companion ~ Phynxkin	DESC:The character gets a phynxkin familiar level %1|PhynxkinFamiliarLVL
 
 Race Traits ~ Phynxkin	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|Phynxkin ~ Pounce
 Pounce	KEY:Phynxkin ~ Pounce	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:If a phynxkin charges a foe, it can make a full attack, including two claw attacks.
