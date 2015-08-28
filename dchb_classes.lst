@@ -24,6 +24,15 @@ CLASS:Bardbarian	PREALIGN:NG,TN,NE,CG,CN,CE
 1	ABILITY:Special Ability|AUTOMATIC|Ragesong	ABILITY:Special Ability|AUTOMATIC|Warsong
 1	CAST:0	KNOWN:0
 2	ABILITY:Special Ability|AUTOMATIC|Canticle of Caution
+3	ABILITY:Special Ability|AUTOMATIC|Cantata of Cacophany
+4	ABILITY:Special Ability|AUTOMATIC|Symphony of Destruction
+5	ABILITY:Special Ability|AUTOMATIC|Ragesong Mind
+6	ABILITY:Special Ability|AUTOMATIC|Greater Cantata of Cacophany
+7	ABILITY:Special Ability|AUTOMATIC|Axe
+8	ABILITY:Special Ability|AUTOMATIC|Powerballad of Power
+9	ABILITY:Special Ability|AUTOMATIC|Great Axe
+10	ABILITY:Special Ability|AUTOMATIC|Greater Ragesong
+
 ###Block: Divine Archer
 
 # Class Name		Hit Dice	Type			Class Type			Abbreviation	Source Page		Define				Combat bonus										Modify VAR				Bonus
